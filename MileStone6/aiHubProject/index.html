@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <h1 class=" text-3xl text-black font-bold bg-black">hiii</h1> 
+
+   <main>
+    <section>
+        <div id="phn-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Phone cards will be dynamically added here -->
+    
+       
+        </div>
+
+      <!-- moadal -->
+
+        <!-- You can open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_4" class="modal ">
+  <div class="modal-box modal-box w-11/12 max-w-5xls bg-white ">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <div  id="modalcontarner">
+
+    </div>
+  </div>
+</dialog>
+
+    </section>
+    <section>
+        <div class="text-center my-4">
+            <button onclick="seeall()" id="show" class="btn  btn-accent">See More</button>
+        </div>
+    </section>
+    
+
+</main>
+  <script src="ka.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+    {
+      "id": 149.9459,
+      "courseName": "Introduction to C Programming",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 149.99,
+      "readingTime": "7 hr",
+      "img": "https://i.ibb.co/d7rZmQW/Rectangle-2-3.png"
+    },
+    {  "id": 14569.99,
+      "courseName": "Graphic Design Principles",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+      "price": 99.99,
+      "readingTime": "3 hr"
+      ,"img": "https://i.ibb.co/k4r90P2/Rectangle-2.png"
+    },
+    {
+      "id": 123249.99,
+      "courseName": "Machine Learning Basics",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 299.99,
+      "readingTime": "6 hr",
+      "img": "https://i.ibb.co/yqxZQvs/Rectangle-2-1.png"
+    },
+    {
+      "id": 1499485,
+      "courseName": "Graphic Design Principles",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 199.99,
+      "readingTime": "8 hr",
+      "img": "https://i.ibb.co/pjZGRJN/Rectangle-2-2.png"
+    },
+    {
+      "id": 1445329.99,
+      "courseName": "Mobile App Development",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 249.99,
+      "readingTime": "9 hr",
+      "img": "https://i.ibb.co/T1xdm4g/Rectangle-2-4.png"
+    },
+    {
+      "id": 1423229.99,
+      "courseName": "Machine Learning Basics",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 179.99,
+      "readingTime": "10 hr",
+      "img": "https://i.ibb.co/nLJDmX0/Rectangle-2-5.png"
+    },
+    {
+      "id": 10009.99,
+      "courseName": "Digital Marketing Strategies",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 159.99,
+      "readingTime": "4 hr",
+      "img": "https://i.ibb.co/7j1xw1s/Rectangle-2-6.png"
+    },
+    {
+      "id": 111149.99,
+      "courseName": "UI/UX Design",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 219.99,
+      "readingTime": "5 hr",
+      "img": "https://i.ibb.co/fxbmY8H/Rectangle-3.png"
+    },
+    {
+      "id": 122249.99,
+      "courseName": "Cybersecurity Fundamentals",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 189.99,
+      "readingTime": "4 hr hours",
+      "img": "https://i.ibb.co/0Z3Y3ks/Rectangle-3-1.png"
+    }
+  ]
+  

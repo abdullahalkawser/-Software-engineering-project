@@ -1,0 +1,35 @@
+.btl{
+    border: 1px solid red;
+    padding: 30px;
+    text-align: center;
+
+}
+.btl img{
+    width: 250px;
+}
+
+.constiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.contimg{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+
+
+}
+.contimg img{
+    width: 200px;
+
+}
+
+.cards{
+    background-color: aquamarine;
+    margin-right: 23px;
+    /* padding: 10px; */
+    margin-bottom: 100px;
+    text-align: center;
+
+}

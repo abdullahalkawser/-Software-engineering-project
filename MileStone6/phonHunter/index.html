@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <header>
+<h1 class="text-6xl text-center text-white ">Phone Hunter</h1>
+    </header> 
+
+    <main  class="container mx-auto">
+        <section>
+            <div class="bg-white p-5 text-center">
+                <input id="inputs" type="text" placeholder="Type here" class="input input-bordered input-warning w-full max-w-xs" />
+                <button onclick="handlesearch()" class="btn btn-accent">Accent</button>
+                
+            </div>
+        </section>
+        <section>
+            <!-- loading -->
+            <div id="lodading" class="text-center my-32 hidden">
+                <span class="loading loading-spinner text-secondary"></span>
+            </div>
+            <div id="phn-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Phone cards will be dynamically added here -->
+            </div>
+
+            <div class=" text-center my-10  ">
+                <button onclick="handleshowall()" id="shows" class="btn  btn-accent  hidden">showAll</button>
+            </div>
+        </section>
+
+        <section>
+            <!-- You can open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_4" class="modal">
+  <div class="modal-box w-11/12 max-w-5xl  bg-white ">
+    
+    
+    <div id="phnDetailsContainer">
+
+              
+
+                
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button, it will close the modal -->
+        <button class="btn btn-accent">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+      
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/phonHunter/index.js"></script>
+</body>
+</html>

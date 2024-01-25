@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-7xl mt-40 text-center"> Wlecome to 
+            <span class="font-bold text-rose-500">
+                Islami Bank !!
+            </span>
+    
+        </h1>
+     </header>
+     <main>
+        <section class=" mt-20">
+            <div class="grid grid-cols-3 gap-4 w-11/12 mx-auto text-white ">
+                <div class="bg-red-600 p-8 space-y-4">
+                    <h2 class="text-3xl font-bold">Deposite</h2>
+                    <p class="text-2xl font-bold" >$<span id="depositetotal">00</span></p>
+                </div>
+                <div class="bg-red-600 p-8 space-y-4">
+                    <h2 class="text-3xl font-bold">WithDraw</h2>
+                    <p class="text-2xl font-bold" >$ <span id="withdewsbalance">00</span></p>
+                </div>
+                <div class="bg-red-600 p-8 space-y-4">
+                    <h2 class="text-3xl font-bold">Balance</h2>
+                    <p class="text-2xl font-bold" >$<span id="total">1200</span></p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mt-20">
+            <div class="flex justify-center items-center gap-12  ">
+                <div class="bg-sky-500 p-10 space-y-3 w-5/12">
+                    <h1 class="text-2xl font-bold text-white"> Please Deposit</h1>
+                    <input id="depositamout"  class="w-96 p-2" type="text" name="" id=""> <br>
+
+                     <button id="depositbtn" class="bg-red-500 px-5 py-3 text-white font-bold rounded-xl">Deposit </button>
+                </div>
+                <div class="bg-sky-500 p-10 space-y-3 w-5/12">
+                    <h1 class="text-2xl font-bold text-white"> Please WithDraw</h1>
+                    <input id="withdrwInpute" class="w-96 p-2" type="text" name="" id=""> <br>
+
+                     <button id="withdretbtn" class="bg-red-500 px-5 py-3 text-white font-bold rounded-xl">WithDraw</button>
+                </div>
+            </div>
+        </section>
+
+
+
+     </main>
+     <script src="deposite.js"></script>
+     <script src="withdrew.js"></script>
+</body>
+</html>
